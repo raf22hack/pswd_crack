@@ -12,13 +12,7 @@
 int main(int argc, char *argv[])
 {
     
-    // const char *const seedchars = 
-    // "./0123456789ABCDEFGHIJKLMNOPQRST"
-    // "UVWXYZabcdefghijklmnopqrstuvwxyz";
-    
     char *hash = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    // char *hash = "ABCD";
-    
     int key_lenght = strlen(hash);
     
     // ///////       STEP 1: Let's make sure we got our hash      //////
@@ -33,11 +27,6 @@ int main(int argc, char *argv[])
         printf("You've passed one too many arguments!\n");
         return 1;
     }
-    
-    // Placeholders to use the variables while we finish the code
-    // printf("This is argv[1] : %s\n", argv[1]);
-    // printf("This is hash[1] : %c\n", hash[1]);
-    
     
     // ///////       STEP 2: Let's setup our code               //////
     
